@@ -1,12 +1,10 @@
 <div class="row">
   <ul class="col-sm-6 list-inline">
-    {% if not HIDE_AUTHORS %}
-      <li class="list-inline-item"><a href="{{ SITEURL }}/{{ AUTHORS_URL }}">Authors</a></li>
-    {% endif %}
-    <li class="list-inline-item"><a href="{{ SITEURL }}/{{ ARCHIVES_URL }}">Archives</a></li>
-    <li class="list-inline-item"><a href="{{ SITEURL }}/{{ CATEGORIES_URL }}">Categories</a></li>
+    <li class="list-inline-item"><i class="fa fa-clock-o"></i> <a href="{{ SITEURL }}/{{ ARCHIVES_URL }}">Archives</a></li>
+    <li class="list-inline-item"><i class="fa fa-folder-open-o"></i> <a href="{{ SITEURL }}/{{ CATEGORIES_URL }}">Categories</a></li>
+    <li class="list-inline-item"><i class="fa fa-user-o"></i> <a href="{{ SITEURL }}/{{ AUTHORS_URL }}">Authors</a></li>
     {% if tags|length %}
-      <li class="list-inline-item"><a href="{{ SITEURL }}/{{ TAGS_URL }}">Tags</a></li>
+      <li class="list-inline-item"><i class="fa fa-files-o"></i> <a href="{{ SITEURL }}/{{ TAGS_URL }}">Tags</a></li>
     {% endif %}
   </ul>
   <p class="col-sm-6 text-sm-right text-muted">
@@ -24,7 +22,8 @@
     </p>
     <hr/>
     <p>
-      All Text and Image is under <a href="https://creativecommons.org/licenses/by-nd/4.0/">CC-BY-ND 4.0</a>.<br>
+      All Text and Image, unless otherwise noted, is under <br>
+      <a href="https://creativecommons.org/licenses/by-nd/4.0/">CC-BY-ND 4.0</a> <em>by Peter Körner / MaZderMind</em>.<br>
       <a href="impressum/">Impressum</a>
     </p>
   </p>
