@@ -1,0 +1,30 @@
+.fineprint {
+	color: #666;
+	text-align: center;
+}
+.fineprint p, .fineprint hr {
+	margin: 2em 0;
+}
+
+.highlight > pre {
+	overflow-x: auto;
+}
+
+@media (min-width: 576px) {
+	.highlight > pre {
+		max-height: 300px;
+		overflow-y: auto;
+	}
+}
+
+code {
+	color: #7d9029;
+}
+
+.highlight + p > em {
+	font-size: .9em;
+	margin-top: -16px;
+	display: block;
+	margin-left: 10px;
+	color: #999;
+}
