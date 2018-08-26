@@ -28,3 +28,13 @@ code {
 	margin-left: 10px;
 	color: #999;
 }
+
+.cta {
+	background: #f0f0f0;
+	font-size: 2rem;
+	border: 1px solid rgba(0,0,0,.1);
+	border-radius: 10px;
+	text-align: center;
+	padding: 30px;
+	margin: 10px 0 20px 0;
+}
